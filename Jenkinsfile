@@ -6,9 +6,9 @@ pipeline {
                 echo 'dev stage'
             }
         }
-        stage('build') {
+        stage('test') {
             steps {
-                sh 'python --version'
+                cho 'test stage'
             }
         }
         stage('build') {
