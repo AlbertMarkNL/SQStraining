@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                cho 'test stage'
+               echo 'test stage'
             }
         }
         stage('build') {
