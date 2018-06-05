@@ -5,10 +5,12 @@ pipeline {
             steps {
                 echo 'dev stage'
             }
-            stage('build') {
+        }
+        stage('build') {
             steps {
                 sh 'python --version'
             }
+        }
         stage('build') {
             steps {
                 echo 'build stage'
